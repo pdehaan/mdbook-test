@@ -4,7 +4,7 @@
 
 # Reference Guide
 
-- [Testing 101](./testing101/README.md)
+- [Testing 101](./testing-101/README.md)
 - [Resources]()
 
 # Developer Guide
@@ -14,10 +14,10 @@
   - [`check`](./cli/check.md)
   - [`format`](./cli/format.md)
   - [`test`](./cli/test.md)
-  - [`test-coverage`](./cli/test-coverage.md)
-  - [`test-coverage-html`](./cli/test-coverage-html.md)
-  - [`run_circleci_scraper`]()
-  - [`run_test_metric_reporter`]()
+  - [`test_coverage`](./cli/test_coverage.md)
+  - [`test_coverage_html`](./cli/test_coverage_html.md)
+  - [`run_circleci_scraper`](./cli/run_circleci_scraper.md)
+  - [`run_test_metric_reporter`](./cli/run_test_metric_reporter.md)
 
 ---
 

@@ -1,14 +1,14 @@
-# `test`
+# `test_coverage`
 
-Run tests.
+Run tests with coverage reporting.
 
 ## USAGE
 
 ```sh
-make test
+make test_coverage
 ```
 
 ## SEE ALSO
 
-- [`test_coverage`](./test_coverage.md) -- Run tests with coverage reporting.
+- [`test`](./test.md) -- Run tests.
 - [`test_coverage_html`](./test_coverage_html.md) -- Run tests and generate HTML coverage report.
