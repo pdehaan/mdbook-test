@@ -7,6 +7,8 @@
   "main": "index.js",
   "scripts": {
     "build": "./build-docs.sh",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d book",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
