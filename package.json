@@ -13,6 +13,6 @@
     "build": "./build-docs.sh",
     "deploy": "gh-pages -d book",
     "predeploy": "npm run build",
-    "test": "echo \"Error: no test specified\"" 
+    "test": "echo \"Error: no test specified\""  
   }
 }
