@@ -1,18 +1,18 @@
 {
+  "name": "mdbook-test",
+  "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
   "devDependencies": {
     "gh-pages": "^6.1.1"
   },
-  "name": "mdbook-test",
-  "version": "1.0.0",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
   "scripts": {
     "build": "./build-docs.sh",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d book",
+    "predeploy": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "description": ""
+  }
 }
